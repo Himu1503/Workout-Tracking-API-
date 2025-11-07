@@ -1,0 +1,27 @@
+POST http://localhost:3001/user
+Content-Type: application/json
+
+{
+    "name" : "Priyanshu",
+    "email": "Priyanshu@gmail.com"
+}
+###
+GET http://localhost:3001/users/690e15863e772ecdd747e636
+
+
+###
+POST http://localhost:3001/workout
+Content-Type: application/json
+
+{
+  "workout_name": "LegPress",
+  "sets": 4,
+  "reps": 10
+}
+
+###
+GET http://localhost:3001/workouts
+
+
+
+
