@@ -19,6 +19,9 @@ const workoutSchema = new Schema({
     total_workout:{
         type:Number
     },
+    total_volume :{
+        type: Number
+    },
 },{  timestamps: true  })
 
 
